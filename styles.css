@@ -58,3 +58,7 @@ footer{
     font-size: 20px;
     padding: 5px;
 }
+
+article>h2{
+    padding: 0px 5px;
+}

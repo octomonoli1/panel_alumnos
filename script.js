@@ -76,3 +76,14 @@ function generarColorAleatorio(){
     return colores[num];
 
 }
+
+document.getElementById("show_selected").addEventListener("click", ()=>{
+    let alumnos = "";
+
+    let items = document.querySelectorAll("#listaSelected li");
+
+    items.forEach(alumno => alumnos += alumno.textContent + ", ");
+    window.alert("Los alumnos seleccionados son: " + alumnos);
+
+
+});

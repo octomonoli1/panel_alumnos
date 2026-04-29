@@ -85,5 +85,4 @@ document.getElementById("show_selected").addEventListener("click", ()=>{
     items.forEach(alumno => alumnos += alumno.textContent + ", ");
     window.alert("Los alumnos seleccionados son: " + alumnos);
 
-
 });

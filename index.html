@@ -26,10 +26,21 @@
             </article>
         </section>
         <section class="control">
-            <button class="btn">Nuevo</button>
+            <button id="new" class="btn">Nuevo</button>
             <button class="btn">Enviar</button>
         </section>
-        <section id="formulario"></section>
+        <section id="formulario">
+            <form id="form">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" /> <br>
+                <label for="apellidos">Apellidos: </label>
+                <input type="text" id="apellidos" /> <br>
+                <label for="edad">Edad: </label>
+                <input type="number" id="edad" /> <br>
+                <button id="add" class="btn">Añadir</button>
+                <input type="reset" class="btn" />
+            </form>
+        </section>
     </main>
 
     <footer>
